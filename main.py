@@ -7,6 +7,7 @@ atk_p = 0
 mana = 0
 opcao_classe = ""
 # Tela de Login
+print("teste")
 
 opcao_func = 0 # Opção Funcionalidade
 
