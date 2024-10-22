@@ -20,6 +20,7 @@ def getFuncConfiguracoes():
 
 def getFuncGuia():
     print("[1] - Atributos\n[2] - Nível e XP\n[3] - Batalhando\n[0] - <- Voltar")
+
 # Características do personagem
 poder = ""
 cabelo_cor = ""
@@ -31,7 +32,6 @@ mana = 0
 opcao_classe = ""
 xp = 0
 nivel = 1
-# Tela de Login
 
 # Características dos inimigos
 nome_orc = "Orc Abissal"
@@ -43,15 +43,13 @@ nome_sli = "Slime"
 hp_sli = 5
 atk_sli = 10
 xp_derrotar_slime = 20
-##############################
+
 # Funcionalidades e dados do jogo:
 opcoesClasse = ['Guerreiro(a)', 'Mago(a)', 'Arqueiro(a)']
 classe_escolhida = 0
 opcao_func = 100 # Opção Funcionalidade
 
-##############################
-
-
+# Tela de Login
 while(opcao_func != 0):
     while(nome_p == ""):
         print("|====================================|")
